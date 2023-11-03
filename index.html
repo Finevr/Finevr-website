@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Finevrs Code Website</title>
-	<style>
-		body {
-			background-color: black;
-			color: #39ff14;
-		}
-	</style>
-</head>
-<body>
-	<h1>Finevrs Code Website</h1>
-	<p>Password type code: <a href="https://www.youtube.com/watch?v=j8G6ktiS43E&t=124s" target="_blank">https://www.youtube.com/watch?v=j8G6ktiS43E&t=124s</a></p>
-	<button onclick="window.open('https://www.youtube.com/@Finevr101')">My YT</button>
-	<p style="position: fixed; bottom: 0;">Copyright FINEVR 2023</p>
-</body>
-</html>
+<button onclick="createStudent()">Create Student</button>
+<div id="studentForm" style="display:none;">
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="grade">Grade:</label>
+    <input type="text" id="grade" name="grade"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+function createStudent() {
+  document.getElementById("studentForm").style.display = "block";
+}
