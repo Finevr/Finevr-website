@@ -1,29 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Finevrs Code Website</title>
-</head>
-<body>
-	<script>
-		function downloadTxtFile() {
-			var element = document.createElement("a");
-			var file = new Blob(["Website is called 'Finevrs code website'"], {type: 'text/plain'});
-			element.href = URL.createObjectURL(file);
-			element.download = "Test.txt";
-			document.body.appendChild(element);
-			element.click();
-		}
-	</script>
-	<button onclick="downloadTxtFile()">Download Text File</button>
-	<div style="background-color: black; color: #00FF00;">
-		<h1>Finevrs Code Website</h1>
-	</div>
-	<div>
-		<p>Password type code: <a href="https://www.youtube.com/watch?v=j8G6ktiS43E&t=124s" target="_blank">https://www.youtube.com/watch?v=j8G6ktiS43E&t=124s</a></p>
-	</div>
-	<button onclick="window.open('https://www.youtube.com/@Finevr101')">My YT</button>
-	<div>
-		<p>©Copyright 2023 FINEVR</p>
-	</div>
-</body>
-</html>
+<a href="downloads/Readme.txt" download="Readme.txt">Download Readme.txt</a>
+<div style="background-color: black; color: neon green;">Finevrs code website</div>
+<a href="https://www.youtube.com/watch?v=j8G6ktiS43E&t=124s" target="_blank">Password type code: https://www.youtube.com/watch?v=j8G6ktiS43E&t=124s</a>
+<button onclick="window.open('https://www.youtube.com/@Finevr101')">My YT</button>
+<button onclick="window.open('https://www.youtube.com/@Finevr101')">My YT</button>
+<div>&copy; Copyright 2023 FINEVR</div>
